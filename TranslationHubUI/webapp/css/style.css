@@ -1,0 +1,352 @@
+/* Enter your custom styles here */
+
+.navStyleScroll {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.noTitle .sapUiFormTitle {
+    display: none
+}
+
+.infoPopover {
+    width: auto;
+    height: auto;
+    min-width: 200px;
+    min-height: 144px;
+}
+
+.filterLabel {
+    background-color: #FACA2D !important;
+}
+
+.sessExpirDivHidden {
+    border: none;
+    position: fixed;
+    display: none;
+    z-index: -999999;
+    opacity: 0;
+    transition: all 1s ease;
+}
+
+.sessExpirDivVisible {
+    margin: 1px;
+    width: 100%;
+    height: 54px;
+    text-align: center;
+    border: none;
+    position: fixed;
+    display: inline-block;
+    z-index: 999999;
+    opacity: 1;
+    transition: all 1s ease;
+}
+
+.sapMSplitContainerHideMode>.sapMSplitContainerDetail .sapUiResponsiveMargin,
+.sapUiResponsiveMargin {
+    margin: 0.25rem 0.5rem !important;
+}
+
+.sapMGrowingListDescription.sapMSLIDescription {
+    display: none;
+    padding: 0.1rem 1rem 0.5rem 1rem;
+    text-align: center;
+}
+
+.sapMListTblCell {
+    padding: .15rem .15rem;
+}
+
+.sapMITBContent {
+    padding: 0.03rem;
+    position: relative;
+    background-color: #ffffff;
+}
+
+.sapMITH .sapMITBScrollContainer {
+    margin: 0 0.5rem;
+}
+
+.sapMITB .sapMITBScrollContainer {
+    margin: 0 0.5rem;
+}
+
+.sapMITBScrollContainer {
+    display: block;
+    margin: 0 0.5rem;
+    padding: 0 0.5px;
+}
+
+.textLifeCycleStatusBtn {
+    height: auto !important;
+}
+
+.textLifeCycleStatusBtn > span {
+    height: auto !important;
+}
+
+.textLifeCycleStatusBtn > span > span {
+    line-height: 1rem !important;
+    font-size: 0.6rem !important;
+    font-weight: bold !important;
+}
+
+.overFlowToolBar .sapMBtnIcon {
+    font-size: 1.2rem !important;
+    line-height: 1.5rem !important;
+    width: 1rem !important;
+}
+
+.overFlowToolBar .sapMSFF {
+    height: 2.1rem !important;
+}
+
+.overFlowToolBar .sapMSF {
+    height: 2.2rem !important;
+    padding: 0px !important;
+}
+
+.overFlowToolBar .sapMSFI {
+    height: 2rem !important;
+}
+
+.overFlowToolBar .sapMSFB {
+    font-size: 0.875rem !important;
+    width: 2rem !important;
+    height: 2rem !important;
+    line-height: 2rem !important;
+}
+
+.overFlowToolBar .sapMBtnContent {
+    line-height: 1.3rem !important;
+    vertical-align: middle !important;
+}
+
+.overFlowToolBar .sapMBtnInner {
+    height: 1.5rem !important;
+    font-weight: bold !important;
+    font-size: 0.875rem !important;
+}
+
+.otbProjectList {
+    padding: 0 !important;
+}
+
+.editTranslrow > td {
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
+    justify-content: flex-start;
+    overflow: hidden;
+    vertical-align: middle !important;
+}
+
+.editTranslTable .sapMCbBg {
+    height: 1rem !important;
+    width: 1rem !important;
+}
+
+.metaData {
+    font-size: 0.6rem !important;
+    height: 1.5rem !important;
+    border-radius: 1rem !important;
+    background: #ffffff !important;
+    color: #0854a0 !important;
+    border: 1px solid #0854a0 !important;
+}
+
+.truncate {
+    max-width: 4rem !important;
+    min-width: auto !important;
+}
+
+.truncate .sapMTokenText {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis !important;
+}
+
+.qIndexChart > div {
+    width: 40px !important;
+    height: 40px !important;
+}
+
+.qIndexChart {
+    justify-content: center !important;
+}
+
+.translationRelevant {
+    font-weight: bold !important;
+    font-size: 0.875rem !important;
+}
+
+.translationRelevant .sapMInputBaseInner {
+    font-weight: bold !important;
+    font-size: 0.875rem !important;
+}
+
+.notTranslationRelevant {
+    font-size: 0.775rem !important;
+}
+
+.footerButton .sapMMenuBtn {
+    max-width: none !important;
+}
+
+.footerButton .sapMBtnContent {
+    width: auto !important;
+    overflow: visible !important;
+    font-size: 0.75rem !important;
+}
+
+.advancedSettingLabels .sapMILILabel {
+    overflow: visible !important;
+    font-size: 0.875rem !important;
+}
+
+.advancedSettingsHeaderText .sapMPanelHdr {
+    font-size: 1rem !important;
+}
+
+.projectHeaderTab .sapMITBFilterIcon {
+    font-size: 1rem !important;
+    height: 2.2rem !important;
+    width: 2.2rem !important;
+    line-height: 2rem !important;
+}
+
+.projectHeaderTab .sapMITBFilter .sapMITBText {
+    padding: 0px !important;
+    font-size: 0.695rem !important;
+}
+
+.projectHeaderTab .sapMITBHead {
+    margin-top: 0.25rem !important;
+}
+
+.projectHeaderTab .sapMITBVertical {
+    height: fit-content !important;
+}
+
+.projectHeaderTab .sapMITBSepLine {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+.translationWorkFlowStatusTab .sapMITBHorizontal.sapMITBFilter {
+    height: 2rem;
+}
+
+.projectNameType {
+    font-weight: bold !important;
+}
+
+.btnAction .sapMBtnIcon {
+    font-size: 1rem !important;
+}
+
+.columnListItems .sapMListTblCell {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.serverTypeText .sapMRbSvg {
+    height: 0.825rem !important;
+    width: 0.825rem !important;
+    margin: 1rem !important;
+}
+
+.serverTypeText .sapMLabel {
+    font-size: 0.825rem !important;
+    font-style: italic !important;
+}
+
+.popoverListItem .sapMSLITitleOnly {
+    font-size: 0.875rem !important;
+}
+
+.addeByUser {
+    font-weight: bold !important;
+}
+
+.sapMTileCntContent {
+    height: 3rem;
+    margin-bottom: 0.1rem;
+    margin-top: 0.1rem;
+    margin-left: 0.1rem;
+    margin-right: 0.1rem;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+    padding-left: 0.1rem;
+    padding-right: 0.1rem;
+}
+
+.sapMTileCntFtrTxt {
+    margin-bottom: 0.1rem;
+    margin-top: 0.1rem;
+    margin-left: 0.1rem;
+    margin-right: 0.1rem;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+    padding-left: 0.1rem;
+    padding-right: 0.1rem;
+}
+
+.sapMTextMaxLine {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-left: 1rem;
+    font-size: 2rem;
+    line-height: 2rem;
+    max-width: 20rem;
+    float: right;
+    font-family: "72","72full",Arial,Helvetica,sans-serif;
+    font-weight: normal;
+    color: #6a6d70;
+}
+
+.sapMOH {
+    padding: 0.25rem;
+}
+
+.accountClass{
+    color: #107e3e;
+    font-size: 1.0em;
+    font-weight: bold;
+}
+
+.hbxChart{
+    margin: 0.5rem;
+    background-color: white;
+    text-align: right;
+    padding: 0.25rem;
+    font-weight: bold;
+}
+
+.vbox{
+	margin: 0.75rem;
+	font-weight: bold;
+}
+
+.vizFrme{
+	background-color: white;
+	margin: 0.25rem !important;
+}
+
+.sapMTileCnt.sapMFrameTypeAuto {
+    min-width: 9rem;
+}
+
+.borderType {
+    border-radius: 1rem !important;
+    border: 1px solid #0854a0 !important;
+}
+
+.titleTxt{
+	color: #107e3e;
+	font-family: "72","72full",Arial,Helvetica,sans-serif;
+    font-size: 0.875rem;
+	font-weight: bold;
+	margin-top:7rem;
+}

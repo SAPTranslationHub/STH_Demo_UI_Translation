@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" content-type="text/xml;charset=UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Expires" content="0" />
+		<title>SAP Translation Hub</title>
+		<script defer src="https://webassistant.enable-now.cloud.sap/wa_cfg/translation_hub_productive/WebAssistant.js" type="text/javascript"></script>
+		<script id="sap-ui-bootstrap"
+			src="/resources/sap-ui-cachebuster/sap-ui-core.js"
+			charset="UTF-8"
+			data-sap-ui-theme="sap_fiori_3"
+			data-sap-ui-resourceroots='{"TranslationHubUI": "./"}'
+			data-sap-ui-oninit="module:sap/ui/core/ComponentSupport"
+			data-sap-ui-async="true"
+			data-sap-ui-frameOptions="deny"
+			data-sap-ui-compatVersion="edge"
+			data-sap-ui-appCacheBuster="./"
+			data-sap-ui-libs="sap.m">
+		</script>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link href="css/Images/sap-translation-hub-icon.png" rel="shortcut icon" type="image/x-icon" />
+		<script>
+			sap.ui.getCore().attachInit(function() {
+				var resource = {};
+			    resource.url = "./";
+			    resource.final = true;
+			    jQuery.sap.registerModulePath("TranslationHubUI", resource);
+				new sap.m.Shell({
+					app: new sap.ui.core.ComponentContainer({
+						height : "100%",
+						width: "100%",
+						name : "TranslationHubUI",
+						async: true,
+						manifest: true,
+						lifecycle: sap.ui.core.ComponentLifecycle.Application
+					}),
+					appWidthLimited: false
+				}).placeAt("content");
+			});
+		</script>
+		<style>
+          html { display : none; } /* Hide page by default */
+        </style>
+        <script>
+          if (self == top) {
+            document.documentElement.style.display = 'block'; // Everything checks out, show the page
+          } else {
+    		document.documentElement.style.display = 'none'; // Break out of the frame
+    // 		top.location.href = self.location.href; // Break out of the frame
+          }
+        </script>
+	</head>
+	<body class="sapUiBody">
+	    <div id="sessExpirDiv">
+        </div>
+        <div id="content">
+        </div>
+	</body>
+</html>
